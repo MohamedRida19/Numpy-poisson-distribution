@@ -18,10 +18,10 @@ sns.displot(poisson_data, kde= True, linewidth = 0, color= "green", fill = 0)
 plt.show()"""
 
 #binomial data vs poisson data
-binomial_data = np.random.binomial(n = 50, p= 0.4, size = 1000)
+'''binomial_data = np.random.binomial(n = 50, p= 0.4, size = 1000)
 poisson_data = np.random.poisson(lam = 50, size = 1000)
 
 sns.displot(binomial_data, kde = True, linewidth = 0, fill=0, color = "red")
 sns.displot(poisson_data, kde = True, linewidth= 0, fill = 0, color = 'green')
 
-plt.show()
+plt.show()'''
